@@ -3,27 +3,32 @@ font-family: 'EB Garamond';
 text-decoration: underline;
 }
 body {
-    background-color: red;
+    background-color: burlywood;
+    color: black;
 }
 @media (min-width: 400px) {
     body {
         background-color: burlywood;
+        color: black;
     }
 }
-@media (min-width: 600px) {
-    body {
-        background-color: burlywood;
-    }
-}
-
 .text {
 max-width: 500px;
+float: left;
 }
 .ending {
     font-size: large;
 }
 img {
     float: right;
+    margin: 50px;
+width: 300px;
+}
+@media (min-width: 400px) {
+    img {
+        width: 500px;
+        float: right;
+    }
 }
 .everything {
     margin-right: auto;
